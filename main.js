@@ -10,24 +10,7 @@ function changeButton() {
 
   var buttons = document.querySelectorAll('button')
   for (var i = 0; i < buttons.length; i++)
-    buttons[i].classList.add('nav-bar')
-  
+  if (buttons[i] === event.target) {
+    buttons[i].classList.add('nav-bar');
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// buttons[i].classList.remove('button-clicked');
-//     if (buttons[i] === event.target) {
-//     event.target.classList.toggle('button-clicked');
