@@ -13,4 +13,5 @@ function changeButton() {
   if (buttons[i] === event.target) {
     buttons[i].classList.add('nav-bar');
   }
+
 }
