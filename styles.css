@@ -26,6 +26,10 @@ button {
 }
 
 .nav-bar {
-  border-bottom: 2px solid black;
+  border-bottom: 4px solid black;
   padding: 5px;
+}
+
+.content-container {
+  margin: 5%
 }
